@@ -1,0 +1,906 @@
+%PDF-1.3
+%‚„œ”
+3 0 obj
+<</Length 3369>>stream
+/GS1 gs
+BT
+/TT2 1 Tf
+11.5351 0 0 12 235.44 770.4 Tm
+0 g
+0 Tc
+0 Tw
+(Final: Session Summary)Tj
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 759.36 Tm
+(Device:)Tj
+/TT2 1 Tf
+8.5255 0 0 8.88 72 759.36 Tm
+(Consulta CRT-P C3TR01)Tj
+/TT4 1 Tf
+8.1552 0 0 8.88 249.84 759.36 Tm
+(Serial Number:)Tj
+/TT2 1 Tf
+8.5255 0 0 8.88 306.48 759.36 Tm
+(PZI611048S)Tj
+/TT4 1 Tf
+8.1552 0 0 8.88 424.56 759.36 Tm
+(Date of Visit:)Tj
+/TT2 1 Tf
+8.5255 0 0 8.88 472.8 759.36 Tm
+(24-Feb-2014 14:58:21)Tj
+ET
+42.48 755.52 519.6 1.68 re
+f
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 424.56 747.6 Tm
+(Physician:)Tj
+-46.8511 0 TD
+[(Patient:)-22035.6(ID:)]TJ
+ET
+42.48 743.76 519.6 1.68 re
+f
+BT
+8.1552 0 0 8.88 42.48 48.48 Tm
+(9995 Software Version 7.4)Tj
+/TT2 1 Tf
+8.5255 0 0 8.88 459.12 48.48 Tm
+(Final: Session Summary)Tj
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 37.44 Tm
+[(Copyright © Medtronic, Inc. 2006)-15620.3(Page 1)-15606.3(Printed:)]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 472.56 37.44 Tm
+(24-Feb-2014 14:03:03)Tj
+-50.4462 77.0541 TD
+(Device Information)Tj
+ET
+42.48 717.36 519.6 1.6801 re
+f
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 708.24 Tm
+[(Device )-6200.5(Medtronic)-5144.4(Consulta CRT-P C3TR01)-3992.4(PZI611048S)-8448.7(Implanted:  15-Jan-2014)]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 691.6801 Tm
+(Device Status \(Implanted: 15-Jan-2014\))Tj
+ET
+42.48 687.36 519.6 1.6801 re
+f
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 678.24 Tm
+[(Battery Voltage \(RRT=2.77V\))-14335.3(3.03 V     )-7815.1(\(24-Feb-2014\))]TJ
+0 -1.2432 TD
+[(Remaining Longevity)-18030.2(6.5 years    \(6 - 7.5 years\))-882.1(  )]TJ
+T*
+[(  \(based on initial interrogation\))-13639.1(  )-11775.1(  )]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 639.6 Tm
+25.9024 Tw
+[( Atrial)-9013.8(RV)-10180.8(LV)]TJ
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 628.56 Tm
+0 Tw
+[(Lead Impedance)-19918.8(532 ohms)-7703.8(551 ohms)-7703.7(418 ohms)]TJ
+0 -1.8649 TD
+[(Capture Threshold)-19086.8(High)-10038.7(0.750 V @ 0.40 ms)-3520.2(0.750 V @ 0.40 ms)]TJ
+0 -1.2432 TD
+[(  Measured On)-20754.8(24-Feb-2014)-6369.3(24-Feb-2014)-6369.3(15-Feb-2014)]TJ
+T*
+[(In-Office Threshold)-18865.6( )-11817.5( )-11817.5(1.50 V @ 0.90 ms)]TJ
+T*
+[(Programmed Amplitude/Pulse Width)-11251.4(2.50 V / 0.40 ms)-4813.6(1.50 V / 0.40 ms)-4813.6(2.25 V / 0.40 ms)]TJ
+0 -1.8649 TD
+[(Measured P/ R Wave)-17865.6(2.1 mV)-8927.4(- - - )-10262.8( )]TJ
+0 -1.2432 TD
+[(Programmed Sensitivity)-16810(0.30 mV)-8371.2(0.90 mV)-8371.2( )]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 534.72 Tm
+(Parameter Summary)Tj
+ET
+42.48 530.4 519.6 1.68 re
+f
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 521.28 Tm
+[(Mode)-5120.7(DDDR )-5721.1(Lower Rate)-4597.8(50 bpm)-6023(Paced AV)-4705.2(130 ms)]TJ
+T*
+[(Mode Switch)-1897.5(171 bpm)-4996(Upper Track)-3651(130 bpm)-6026(Sensed AV)-4149(100 ms)]TJ
+T*
+[(V. Pacing)-3341.9(LV->RV )-5080.5(Upper Sensor)-2982.5(120 bpm)-6026( )-10552.1( )]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 474 Tm
+[(Detection)-11264.6(Rates)-5777.9(Therapies)]TJ
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 462.96 Tm
+[(AT/AF)-4788.6(Monitor)-5553.1(>171 bpm)-4412(All Rx Off)]TJ
+T*
+5.2753 Tw
+[(VT)-6344.3(Monitor >150 )5275.3(bpm)-4412( )]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 435.36 Tm
+0 Tw
+[(Changes This Session)-17199.8(Session Start)-1491.1(Current Value)]TJ
+ET
+0 G
+1 J 2 j .48 w 10 M []0 d
+1 i 
+q 1 0 0 1 42.48 432.72 cm 0 0 m
+519.6 0 l
+519.36 0 l
+S
+Q
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 423.36 Tm
+[(No parameters have been changed during the current session.)-1660.4( )-7962.3( )]TJ
+ET
+endstream
+endobj
+4 0 obj
+<</ProcSet[/PDF/Text]/Font<</TT2 5 0 R/TT4 6 0 R>>/ExtGState<</GS1 7 0 R>>>>
+endobj
+11 0 obj
+<</Length 5814>>stream
+/GS1 gs
+BT
+/TT2 1 Tf
+11.5351 0 0 12 253.68 770.4 Tm
+0 g
+0 Tc
+0 Tw
+(Final: Parameters)Tj
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 759.36 Tm
+(Device:)Tj
+/TT2 1 Tf
+8.5255 0 0 8.88 72 759.36 Tm
+(Consulta CRT-P C3TR01)Tj
+/TT4 1 Tf
+8.1552 0 0 8.88 249.84 759.36 Tm
+(Serial Number:)Tj
+/TT2 1 Tf
+8.5255 0 0 8.88 306.48 759.36 Tm
+(PZI611048S)Tj
+/TT4 1 Tf
+8.1552 0 0 8.88 424.56 759.36 Tm
+(Date of Visit:)Tj
+/TT2 1 Tf
+8.5255 0 0 8.88 472.8 759.36 Tm
+(24-Feb-2014 14:58:21)Tj
+ET
+42.48 755.52 519.6 1.68 re
+f
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 424.56 747.6 Tm
+(Physician:)Tj
+-46.8511 0 TD
+[(Patient:)-22035.6(ID:)]TJ
+ET
+42.48 743.76 519.6 1.68 re
+f
+BT
+8.1552 0 0 8.88 42.48 48.48 Tm
+(9995 Software Version 7.4)Tj
+/TT2 1 Tf
+8.5255 0 0 8.88 486.96 48.48 Tm
+(Final: Parameters)Tj
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 37.44 Tm
+[(Copyright © Medtronic, Inc. 2006)-15620.3(Page 1)-15606.3(Printed:)]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 472.56 37.44 Tm
+(24-Feb-2014 14:03:12)Tj
+-50.4462 77.0541 TD
+(Pacing Summary)Tj
+ET
+42.48 717.36 519.6 1.6801 re
+f
+BT
+8.5255 0 0 8.88 42.48 708.24 Tm
+9.4623 Tw
+[(Mode)-10788.9( Rates)-6397.2( AV )9462.3(Intervals)-3340.6( )]TJ
+ET
+0 G
+1 J 2 j .48 w 10 M []0 d
+1 i 
+q 1 0 0 1 42.48 705.6 cm 0 0 m
+519.6 0 l
+519.36 0 l
+S
+Q
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 696.24 Tm
+0 Tw
+[(Mode)-11506.8(DDDR )-7016(Lower)-6811.4(50 bpm)-6847(Paced AV)-5087.8(130 ms)]TJ
+0 -1.2432 TD
+[(Mode Switch)-8283.6(171 bpm)-6290.9(Upper Track)-4033.6(130 bpm)-6290.9(Sensed AV)-4531.6(100 ms)]TJ
+T*
+[(V. Pacing)-9728(LV->RV )-6375.3(Upper Sensor)-3365.1(120 bpm)-6290.9( )-9257.2( )]TJ
+T*
+[(V-V Pace Delay)-6949.6(0 ms)-8015.5( )-9257.2( )-9904.6( )-9257.2( )]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 640.8 Tm
+[(Pacing Details)-5494.1(Atrial)-7184(RV)-8351(LV)]TJ
+ET
+q 1 0 0 1 42.48 638.16 cm 0 0 m
+519.6 0 l
+519.36 0 l
+S
+Q
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 628.8 Tm
+[(Amplitude)-8443.2(2.50 V)-7291.3(1.50 V)-7291.3(2.25 V)]TJ
+T*
+[(Pulse Width)-7554.5(0.40 ms)-6625.3(0.40 ms)-6625.3(0.40 ms)]TJ
+T*
+[(Capture Management)-3217.6(Monitor )-6570.2(Adaptive )-6013(Adaptive )]TJ
+T*
+[(  Amplitude Margin)-10468.3( )-3989.4(2.0 X)-7847.5(+)0( 1.5 V)]TJ
+T*
+[(  Min. Adapted Amplitude)-7632.3( )-3989.4(1.50 V)-13206.6( )]TJ
+T*
+[(  Max. Adapted Amplitude)-7354.5( )-3989.4( )-9904.6(6.00 V)]TJ
+T*
+[(  Acute Phase Remaining)-1605.8(Off)-8849(Off)-14764.2( )]TJ
+T*
+[(  Acute Phase Completed)-1550.1(15-Jan-2014)-4567.2(15-Jan-2014)-10482.5( )]TJ
+T*
+[(Sensitivity)-8388.5(0.30 mV)-6458.3(0.90 mV)-12373.6( )]TJ
+T*
+[(Pace Polarity)-6998.3(Bipolar )-6791.8(Bipolar )-6791.8(LVtip to Can )]TJ
+T*
+[(Sense Polarity)-6442.2(Bipolar )-6791.8(Bipolar )-12707.1( )]TJ
+T*
+[(Lead Monitor)-7053(Monitor Only )-4236.2(Monitor Only )-4236.2(Monitor Only )]TJ
+T*
+[(  Min Limit)-8333.8(200 ohms)-5790.9(200 ohms)-5790.9(200 ohms)]TJ
+T*
+[(  Max Limit)-8056(3000 ohms)-5234.7(3000 ohms)-5234.7(3000 ohms)]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 462.96 Tm
+[(AV Therapies)-8416.2( )]TJ
+ET
+q 1 0 0 1 42.48 460.32 cm 0 0 m
+252.96 0 l
+252.72 0 l
+S
+Q
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 450.96 Tm
+[(Rate Adaptive AV)-7586.1(On )]TJ
+T*
+[(  Start Rate)-10422.1(80 bpm)]TJ
+T*
+[(  Stop Rate)-10476.8(130 bpm)]TJ
+T*
+[(  Min PAV)-11033.9(100 ms)]TJ
+T*
+[(  Min SAV)-11033.9(70 ms)]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 390.24 Tm
+[(Rate Response)-7582.7( )]TJ
+ET
+q 1 0 0 1 42.48 387.6 cm 0 0 m
+252.96 0 l
+252.72 0 l
+S
+Q
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 378.24 Tm
+[(ADL Rate)-11144.2(95 bpm)]TJ
+T*
+[(Optimization)-9922.1(On )]TJ
+T*
+[(ADL Response)-8753.6(3 )]TJ
+T*
+[(Exertion Response)-7030.5(3 )]TJ
+T*
+[(Activity Threshold)-7588.1(Medium Low )]TJ
+T*
+[(Activity Acceleration)-6531.9(30 sec)]TJ
+T*
+[(Activity Deceleration)-6420.6(Exercise)]TJ
+T*
+[(ADL Setpoint)-9587.1(7 )]TJ
+T*
+[(UR Setpoint)-10088.1(15 )]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 273.36 Tm
+[(Refractory/Blanking)-5304.9( )]TJ
+ET
+q 1 0 0 1 42.48 270.72 cm 0 0 m
+252.96 0 l
+252.72 0 l
+S
+Q
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 261.36 Tm
+[(PVARP)-12089.6(Auto)]TJ
+T*
+[(  Minimum PVARP)-7200.4(250 ms)]TJ
+T*
+[(PVAB Interval)-9254.6(150 ms)]TJ
+T*
+[(  PVAB Method)-8642.8(Partial )]TJ
+T*
+[(A. Blank Post AP)-7864.9(200 ms)]TJ
+T*
+[(A. Blank Post AS)-7864.9(100 ms)]TJ
+T*
+[(V. Blank Post VP)-7864.9(200 ms)]TJ
+T*
+[(V. Blank Post VS)-7864.9(120 ms)]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 309.12 462.96 Tm
+[(Arrhythmia Interventions)-2916.2( )]TJ
+ET
+q 1 0 0 1 309.12 460.32 cm 0 0 m
+252.96 0 l
+252.72 0 l
+S
+Q
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 309.12 450.96 Tm
+[(A. Rate Stabilization)-6474.8(Off )]TJ
+T*
+[(A. Preference Pacing)-6030(Off )]TJ
+T*
+[(Post Mode Switch)-7476.3(Off )]TJ
+T*
+[(V. Sense Response)-6640.8(On )]TJ
+T*
+[(  Maximum Rate)-8200.4(130 bpm)]TJ
+T*
+[(Conducted AF Response)-4306.4(On )]TJ
+T*
+[(  Response Level)-7752.6(Medium )]TJ
+T*
+[(  Maximum Rate)-8200.4(110 bpm)]TJ
+T*
+[(V. Rate Stabilization)-6474.8(Off )]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 309.12 346.08 Tm
+[(Additional Features)-5472.8( )-7125.8( )-4141.8( )]TJ
+ET
+q 1 0 0 1 309.12 343.44 cm 0 0 m
+252.96 0 l
+252.72 0 l
+S
+Q
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 309.12 334.08 Tm
+[(Atrial Tracking Recovery)-4587.6(Off )-6393.4( )-4342.5( )]TJ
+T*
+[(Rate Drop Response)-6141.3(Off )-6393.4( )-4342.5( )]TJ
+T*
+6.3934 Tw
+[(Sleep)-12922.1(Off  )2050.9( )]TJ
+T*
+0 Tw
+[(Non-Comp Atrial Pacing)-4753.1(On )-6392.9( )-4342.5( )]TJ
+T*
+[(  NCAP Interval)-8588.6(300 ms)-4725.4( )-4342.5( )]TJ
+T*
+[(PMT Intervention)-7865.4(Off )-6393.4( )-4342.5( )]TJ
+T*
+[(PVC Response)-8642.8(On )-6392.9( )-4342.5( )]TJ
+T*
+[(V. Safety Pacing)-8086.6(On )-6392.9( )-4342.5( )]TJ
+T*
+[(Implant Detection)-7698(Off/Complete )-1835.8( )-4342.5( )]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 167.5201 Tm
+(Device Information)Tj
+ET
+42.48 163.2 519.6 1.68 re
+f
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 154.08 Tm
+[(Device )-6200.5(Medtronic)-5144.4(Consulta CRT-P C3TR01)-3992.4(PZI611048S)-8448.7(Implanted:  15-Jan-2014)]TJ
+T*
+(Device Configuration ID: 3-0-0)Tj
+ET
+endstream
+endobj
+12 0 obj
+<</ProcSet[/PDF/Text]/Font<</TT2 5 0 R/TT4 6 0 R>>/ExtGState<</GS1 7 0 R>>>>
+endobj
+15 0 obj
+<</Length 4719>>stream
+/GS1 gs
+BT
+/TT2 1 Tf
+11.5351 0 0 12 253.68 770.4 Tm
+0 g
+0 Tc
+0 Tw
+(Final: Parameters)Tj
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 759.36 Tm
+(Device:)Tj
+/TT2 1 Tf
+8.5255 0 0 8.88 72 759.36 Tm
+(Consulta CRT-P C3TR01)Tj
+/TT4 1 Tf
+8.1552 0 0 8.88 249.84 759.36 Tm
+(Serial Number:)Tj
+/TT2 1 Tf
+8.5255 0 0 8.88 306.48 759.36 Tm
+(PZI611048S)Tj
+/TT4 1 Tf
+8.1552 0 0 8.88 424.56 759.36 Tm
+(Date of Visit:)Tj
+/TT2 1 Tf
+8.5255 0 0 8.88 472.8 759.36 Tm
+(24-Feb-2014 14:58:21)Tj
+ET
+42.48 755.52 519.6 1.68 re
+f
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 424.56 747.6 Tm
+(Physician:)Tj
+-46.8511 0 TD
+[(Patient:)-22035.6(ID:)]TJ
+ET
+42.48 743.76 519.6 1.68 re
+f
+BT
+8.1552 0 0 8.88 42.48 48.48 Tm
+(9995 Software Version 7.4)Tj
+/TT2 1 Tf
+8.5255 0 0 8.88 486.96 48.48 Tm
+(Final: Parameters)Tj
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 37.44 Tm
+[(Copyright © Medtronic, Inc. 2006)-15620.3(Page 2)-15606.3(Printed:)]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 472.56 37.44 Tm
+(24-Feb-2014 14:03:12)Tj
+-50.3899 76.973 TD
+(AT/AF Detection)Tj
+ET
+42.48 717.84 373.2 .72003 re
+f
+BT
+8.5255 0 0 8.88 42.96 708.72 Tm
+(Detection)Tj
+ET
+42.48 705.6 51.36 .72003 re
+f
+93.6 705.6 14.16 .72003 re
+f
+107.52 705.6 35.52 .72003 re
+f
+BT
+8.5255 0 0 8.88 143.28 708.72 Tm
+(A. Interval \(Rate\))Tj
+ET
+142.8 705.6 80.64 .72003 re
+f
+223.2 705.6 192.48 .72003 re
+f
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.96 694.08 Tm
+2.6561 Tw
+(Monitor  )Tj
+ET
+0 G
+1 J 2 j .48 w 10 M []0 d
+1 i 
+q 1 0 0 1 415.44 691.2 cm 0 0 m
+0 -.24 l
+0 12.24 l
+.24 12.24 l
+-192.24 12.24 l
+-192.24 -.24 l
+-192.24 0 l
+S
+Q
+BT
+8.1552 0 0 8.88 108.24 681.6 Tm
+0 Tw
+[(AT/AF)-1463.1(350 ms \(171 bpm\))]TJ
+ET
+.24 w 
+324.72 690 -98.88 -10.32 re
+S
+BT
+8.1552 0 0 8.88 264.24 681.6 Tm
+[(No Rx)-4726.1(350 ms)]TJ
+ET
+.48 w 
+q 1 0 0 1 223.2 678.72 cm 0 0 m
+192.48 0 l
+192.24 0 l
+192.24 -.24 l
+192.24 12.48 l
+S 1 0 0 1 0 12.48 cm 0 0 m
+0 -12.72 l
+0 -12.48 l
+S
+Q
+BT
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 664.3201 Tm
+(AT/AF Therapies)Tj
+ET
+42.48 660 519.6 1.6801 re
+f
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 650.88 Tm
+[(                        )-1425( )]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 637.2 Tm
+[(AT/AF ATP )-2748.7(Rx1)-1149.5(Rx2)-1149.5(Rx3)]TJ
+ET
+q 1 0 0 1 42.48 634.56 cm 0 0 m
+252.96 0 l
+252.72 0 l
+S
+Q
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 625.2 Tm
+[(AT/AF Rx Status)-1176.4(Off )-1508.2(Off )-1508.2(Off )]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 309.12 637.2 Tm
+[(Shared A. ATP)-5074.6( )]TJ
+ET
+q 1 0 0 1 309.12 634.56 cm 0 0 m
+252.96 0 l
+252.72 0 l
+S
+Q
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 309.12 625.2 Tm
+[(A-A Minimum ATP Interval)-785.9(150 ms)]TJ
+0 -1.2432 TD
+[(A. Pacing Amplitude)-3561.3(6 V)]TJ
+T*
+[(A. Pacing Pulse Width)-2672.7(1.5 ms)]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 589.44 Tm
+[(Stop Atrial Therapies After)-9429.4( )-3184.7( )-1974.2( )]TJ
+ET
+q 1 0 0 1 42.48 586.8 cm 0 0 m
+519.6 0 l
+519.36 0 l
+S
+Q
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 577.44 Tm
+[(Disable all A. Rxs if A. lead position is suspect?)-2092.1(No )-2328.5( )-2076.5( )]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 563.76 Tm
+[(Atrial Lead Position Check)-1574.9( )]TJ
+ET
+q 1 0 0 1 42.48 561.12 cm 0 0 m
+519.6 0 l
+519.36 0 l
+S
+Q
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 551.76 Tm
+[(No measurement since reset.)-1830.1( )]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 538.08 Tm
+(VT Detection)Tj
+ET
+42.48 533.76 519.6 1.6801 re
+f
+BT
+8.5255 0 0 8.88 42.48 524.64 Tm
+[(Detection)-1468.1( )-1411.2(V. Interval \(Rate\))]TJ
+ET
+q 1 0 0 1 42.48 522 cm 0 0 m
+519.6 0 l
+519.36 0 l
+S
+Q
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 512.64 Tm
+[(Monitor )-2950.4( )-1487.9(400 ms \(150 bpm\))]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 496.08 Tm
+(Data Collection Setup)Tj
+ET
+42.48 491.76 519.6 1.68 re
+f
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 482.64 Tm
+[(                        )-1425( )-1458.5( )]TJ
+/TT2 1 Tf
+8.5255 0 0 8.88 42.48 468.96 Tm
+4.0855 Tw
+[( Source)-4886.2(Range)]TJ
+ET
+q 1 0 0 1 42.48 466.32 cm 0 0 m
+519.6 0 l
+519.36 0 l
+S
+Q
+BT
+/TT4 1 Tf
+8.1552 0 0 8.88 42.48 456.96 Tm
+0 Tw
+[(LECG)-1838.4(A )-7707.3(+/- 0.3 mV )]TJ
+T*
+[(EGM 1)-1449.7(Atip to Aring )-2927(+/- 8 mV )]TJ
+T*
+[(EGM 2)-1449.7(RVtip to RVring )-1482.7(+/- 8 mV )]TJ
+T*
+[(EGM 3)-1449.7(LVtip to Can )-2870.9(+/- 8 mV )]TJ
+0 -1.5405 TD
+[(Monitored)-9561.5(EGM1 and EGM2 )-2071.4( )]TJ
+0 -1.2432 TD
+[(Pre-arrhythmia EGM)-4839.8(Off )-8630( )]TJ
+T*
+13.7304 Tc
+[(  )3766.9( )]TJ
+T*
+0 Tc
+[(AT/AF Daily Burden)-5171.8(6 hr)-8518.2( )]TJ
+T*
+[(Avg. V. Rate During AT/AF)-2059.5(6 hr at 100 bpm)-3236.9( )]TJ
+T*
+[(OptiVol Threshold)-6004.3(60 )-8851.2( )]TJ
+T*
+13.7304 Tc
+[(  )3766.9( )]TJ
+T*
+0 Tc
+[(V. Sensing Episodes)-4780.2( )-9963.5( )]TJ
+T*
+[(  V. Senses to Detect)-4614.7(10 senses)-5682.7( )]TJ
+T*
+[(  V. Paces to Terminate)-3559.5(3 paces)-6738.9( )]TJ
+T*
+13.7304 Tc
+[(  )4031.8( )]TJ
+T*
+0 Tc
+[(Device Date/Time)-6061.5(24-Feb-2014 15:01)-1735( )]TJ
+T*
+[(Holter Telemetry)-6617.6(Off)-8907.8( )]TJ
+ET
+endstream
+endobj
+16 0 obj
+<</ProcSet[/PDF/Text]/Font<</TT2 5 0 R/TT4 6 0 R>>/ExtGState<</GS1 7 0 R>>>>
+endobj
+7 0 obj
+<</Type/ExtGState/SA false/SM .02/OP false/op false/OPM 1/BG2/Default/UCR2/Default/HT/Default>>
+endobj
+17 0 obj
+<</Type/FontDescriptor/Ascent 905/CapHeight 718/Descent -211/Flags 32/FontBBox[-628 -376 2000 1010]/FontName/Arial,Bold/ItalicAngle 0/StemV 138/XHeight 515/FontFamily(Arial)/FontStretch/Normal/FontWeight 700>>
+endobj
+18 0 obj
+<</Type/FontDescriptor/Ascent 905/CapHeight 718/Descent -211/Flags 32/FontBBox[-665 -325 2000 1006]/FontName/Arial/ItalicAngle 0/StemV 88/XHeight 515/FontFamily(Arial)/FontStretch/Normal/FontWeight 400>>
+endobj
+5 0 obj
+<</Type/Font/Subtype/TrueType/FirstChar 32/LastChar 121/Widths[278 0 0 0 0 0 0 0 333 333 0 0 0 333 278 278
+556 556 556 556 556 556 556 0 556 0 333 0 0 0 0 0
+0 722 722 722 722 0 611 0 0 278 556 0 611 833 0 0
+667 0 722 667 611 0 667 0 0 0 611 0 0 0 0 0
+0 556 611 556 611 556 333 611 611 278 0 556 278 889 611 611
+611 0 389 556 333 611 556 0 556 556]/Encoding/WinAnsiEncoding/BaseFont/Arial,Bold/FontDescriptor 17 0 R>>
+endobj
+6 0 obj
+<</Type/Font/Subtype/TrueType/FirstChar 32/LastChar 169/Widths[278 0 0 0 0 0 0 0 333 333 0 584 278 333 278 278
+556 556 556 556 556 556 556 556 556 556 278 0 0 584 584 556
+1015 667 667 722 722 667 611 778 722 278 500 0 556 833 722 778
+667 0 722 667 611 722 667 944 667 0 611 0 0 0 0 0
+0 556 556 500 556 556 278 556 556 222 0 500 222 833 556 556
+556 0 333 500 278 556 500 722 500 500 500 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 737]/Encoding/WinAnsiEncoding/BaseFont/Arial/FontDescriptor 18 0 R>>
+endobj
+1 0 obj
+<</Type/Page/Parent 8 0 R/Resources 4 0 R/Contents 3 0 R>>
+endobj
+10 0 obj
+<</Type/Page/Parent 8 0 R/Resources 12 0 R/Contents 11 0 R>>
+endobj
+14 0 obj
+<</Type/Page/Parent 8 0 R/Resources 16 0 R/Contents 15 0 R>>
+endobj
+8 0 obj
+<</Type/Pages/Kids[1 0 R 10 0 R 14 0 R]/Count 3/MediaBox[0 0 612 792]>>
+endobj
+19 0 obj
+<</Count 2/First 9 0 R/Last 13 0 R>>
+endobj
+9 0 obj
+<</Title(Report 1)/Dest[1 0 R/XYZ null null null]/Parent 19 0 R/Next 13 0 R>>
+endobj
+13 0 obj
+<</Title(Report 2)/Dest[10 0 R/XYZ null null null]/Parent 19 0 R/Prev 9 0 R>>
+endobj
+20 0 obj
+<<
+/Dt (D:20140224140320)
+/JTM (Distiller)
+>>
+endobj
+21 0 obj
+/This
+
+endobj
+22 0 obj
+<<
+/CP (Distiller)
+/Fi 21 0 R
+>>
+endobj
+23 0 obj
+<<
+/R [
+300.000 300.000 ]>>
+endobj
+24 0 obj
+<<
+/JTF 0
+/MB [
+0.000 0.000 612.000 792.000 ]/R 23 0 R
+/W [
+0 2 ]>>
+endobj
+25 0 obj
+<<
+/Fi [
+22 0 R
+]/P [
+24 0 R
+]>>
+endobj
+26 0 obj
+<<
+/Dm [
+612.000 792.000 612.000 792.000 ]>>
+endobj
+27 0 obj
+<<
+/Me 26 0 R
+>>
+endobj
+28 0 obj
+<<
+/D [
+25 0 R
+]/MS 27 0 R
+/Type /JobTicketContents 
+>>
+endobj
+29 0 obj
+<<
+/A [
+20 0 R
+]/Cn [
+28 0 R
+]/V 1.100
+>>
+endobj
+2 0 obj
+<</Title(˛ˇ F i n a l :   P a r a m e t e r s)/Author(˛ˇ M e d t r o n i c)/CreationDate(D:20140224140319-06'00')/Producer(˛ˇ P D F   W r i t e r   -   b i o P D F   /   h t t p : / / w w w . b i o p d f . c o m   /   M e d t r o n i c ,   I n c .)/Creator(PScript5.dll Version 5.2.2)/ModDate(D:20140224140319-06'00')>>
+endobj
+30 0 obj
+<</Type/Metadata/Subtype/XML/Length 3269>>stream
+<?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.0-c316 44.253921, Sun Oct 01 2006 17:14:39">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/">
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Final: Parameters</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <dc:creator>
+            <rdf:Seq>
+               <rdf:li>Medtronic</rdf:li>
+            </rdf:Seq>
+         </dc:creator>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:xap="http://ns.adobe.com/xap/1.0/">
+         <xap:CreateDate>2014-02-24T14:03:19-06:00</xap:CreateDate>
+         <xap:CreatorTool>PScript5.dll Version 5.2.2</xap:CreatorTool>
+         <xap:ModifyDate>2014-02-24T14:03:19-06:00</xap:ModifyDate>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+         <pdf:Producer>PDF Writer - bioPDF / http://www.biopdf.com / Medtronic, Inc.</pdf:Producer>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
+endstream
+endobj
+31 0 obj
+<</Type/Catalog/Pages 8 0 R/Metadata 30 0 R/Outlines 19 0 R/OpenAction[1 0 R/XYZ null null 1]/PageMode/UseNone/JT 29 0 R>>
+endobj
+xref
+0 32
+0000000000 65535 f 
+0000015896 00000 n 
+0000016986 00000 n 
+0000000016 00000 n 
+0000003434 00000 n 
+0000014902 00000 n 
+0000015334 00000 n 
+0000014345 00000 n 
+0000016124 00000 n 
+0000016264 00000 n 
+0000015970 00000 n 
+0000003526 00000 n 
+0000009390 00000 n 
+0000016357 00000 n 
+0000016047 00000 n 
+0000009483 00000 n 
+0000014252 00000 n 
+0000014456 00000 n 
+0000014682 00000 n 
+0000016211 00000 n 
+0000016451 00000 n 
+0000016513 00000 n 
+0000016536 00000 n 
+0000016585 00000 n 
+0000016629 00000 n 
+0000016713 00000 n 
+0000016762 00000 n 
+0000016823 00000 n 
+0000016856 00000 n 
+0000016928 00000 n 
+0000017321 00000 n 
+0000020666 00000 n 
+trailer
+<<
+/Size 32
+/Root 31 0 R
+/Info 2 0 R
+/ID[<d5eef62292eb40885c8c309cc3063291><d5eef62292eb40885c8c309cc3063291>]
+>>
+startxref
+20805
+%%EOF
