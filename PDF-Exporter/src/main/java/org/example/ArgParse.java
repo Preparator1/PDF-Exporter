@@ -14,6 +14,8 @@ public class ArgParse {
     static String outputValue = "";
     static boolean recursive = false;
 
+    static boolean debug = false;
+
     public static void parser(String[] args) {
         int argCount = 0;
 
@@ -76,6 +78,13 @@ public class ArgParse {
                         recursive = true;
                         argCount++;
                         break;
+
+                    case "-d":
+                    case "--debug":
+                        debug = true;
+                        argCount++;
+                        break;
+
                     case "-h":
                     case "--help":
                         if (args.length == 1) {

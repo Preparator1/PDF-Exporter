@@ -1,2 +1,5 @@
-      	+   "nadpis \" + ok" - "sekce" > "podsekce" [$0][$2222][$46868]
-+ "efegw"  >			 "Wtf"     [$3253203223] [$352] [$3432]
+"Jmeno Sloupce" : "Nazev"	- "Sekce"	> "Podsekce"    [$1]
+"Heart rate"    : "Impedance"	- "Ratio" 		 	[$2]
+"Hanabi"    	: "Yoda"	 		 	 	[$7]
+"Puzzle"    	: "Paris"			> "Cities"	[$3]
+"Candy"		: "Lollipop"	- "Candies"	> "Bonbons"	[$6]

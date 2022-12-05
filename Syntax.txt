@@ -1,0 +1,27 @@
+///////////////////////////////////////////////////
+//						 //
+//		Barty Syntax Rules:		 //
+//						 //
+///////////////////////////////////////////////////
+
+"column_name" : "title" {- "section" > "subsection"} [$column_number]
+
+- language is case-sensitive and whitespace-insensitive
+- one line is interpreting one command
+- command parameter has to be inside double quotes, except column_number
+- double quotes inside parameters can be escaped by backslash ('\')
+- each command has to contain column_name, title and column_number parameter
+- parameter section and subsection is optional (curly braces)
+- parameter column_number has to be positive integer (one to infinify)
+- each parameter has unique identifier (except column_name):
+  --> title has ':'
+  --> section has '-'
+  --> subsection has '>'
+  --> column_number has '[$..]'
+
+///////////////////////////////////////////////////
+//						 //
+//		     Examples:		         //
+//						 //
+///////////////////////////////////////////////////
+

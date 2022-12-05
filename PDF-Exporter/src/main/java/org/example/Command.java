@@ -4,30 +4,37 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Command {
-    String Title;
-    String Section;
-    String Subsection;
-    List<String> columnNumberList = new ArrayList<>();
+    String columnName;
+    String title;
+    String section;
+    String subsection;
+    String columnNumber;
 
     public Command() {
-        this.Title = "";
-        this.Section = "";
-        this.Subsection = "";
+        this.columnName = "";
+        this.title = "";
+        this.section = "";
+        this.subsection = "";
+        this.columnNumber = "";
     }
 
-    public void setTitle(String Title){
-        this.Title = Title;
+    public void setColumnName(String columnName){
+        this.columnName = columnName;
     }
 
-    public void setSection(String Section){
-        this.Section = Section;
+    public void setTitle(String title){
+        this.title = title;
     }
 
-    public void setSubsection(String Subsection){
-        this.Subsection = Subsection;
+    public void setSection(String section){
+        this.section = section;
     }
 
-    public void appendColumnList(String columnNumber){
-        this.columnNumberList.add(columnNumber);
+    public void setSubsection(String subsection){
+        this.subsection = subsection;
+    }
+
+    public void setColumnNumber(String columnNumber){
+        this.columnNumber = columnNumber;
     }
 }

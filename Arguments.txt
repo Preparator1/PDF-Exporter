@@ -1,0 +1,24 @@
+///////////////////////////////////////////////////
+//						 //
+//		Program parameters:		 //
+//						 //
+///////////////////////////////////////////////////
+
+-h, --help	displays a help list with a brief description of each parameter
+-c, --command	chooses a command file in barty language format
+-i, -- input	selects an input directory with PDF files
+-r, --recursive	turns on recursive search in input subdirectories
+-o, --output	selects an output directory for CSV and PNG files
+-d, --debug	turns on debug mode
+
+///////////////////////////////////////////////////
+//						 //
+//		  Default values:		 //
+//						 //
+///////////////////////////////////////////////////
+
+-c, --command	STDIN
+-i, -- input	program directory
+-r, --recursive	OFF
+-o, --output	program directory
+-d, --debug	OFF

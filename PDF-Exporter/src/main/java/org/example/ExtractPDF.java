@@ -2,6 +2,7 @@ package org.example;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
+import org.fit.pdfdom.PDFBoxTree;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -13,6 +14,8 @@ public class ExtractPDF {
     List<Command> commandList;
     List<String> pdfList;
     List<String> recursiveDirectories;
+    int errorRow;
+    int errorColumn;
 
     public ExtractPDF(){
         this.commandList = new ArrayList<>();
@@ -22,20 +25,17 @@ public class ExtractPDF {
 
     public void extract(String command, String input, String output, boolean recursive) throws Exception {
        if(!checkSyntax(command)){
-           System.out.println("Error: No valid syntax in command file was given (File location: " + command + ")");
+           System.out.println("Error: No valid syntax in command file was given. Error at row: " + ++errorRow + ", column: " + ++errorColumn + " (File location: " + command + ")");
            System.exit(1);
        }
 
        for(Command com : commandList){
            System.out.println("-----------------");
-           System.out.println("Title: " + com.Title);
-           System.out.println("Section: " + com.Section);
-           System.out.println("Subsection: " + com.Subsection);
-           System.out.print("Column: ");
-           for(String col : com.columnNumberList){
-               System.out.print(col + " ");
-           }
-           System.out.print("\n");
+           System.out.println("Column name: " + com.columnName);
+           System.out.println("Title: " + com.title);
+           System.out.println("Section: " + com.section);
+           System.out.println("Subsection: " + com.subsection);
+           System.out.println("Column number: " + com.columnNumber);
            System.out.println("-----------------");
        }
 
@@ -44,13 +44,24 @@ public class ExtractPDF {
        }
 
        System.out.println("PDF files: ");
-        for(String pdf : pdfList){
-            System.out.println(pdf + " ");
-        }
+       for(String pdf : pdfList){
+           System.out.println(pdf + " ");
+       }
 
        for(String pdf : pdfList){
            File pdfFile = new File(pdf);
            PDDocument pdfDocument = PDDocument.load(pdfFile);
+           /*PDFTextStripper stripper = new PDFTextStripper();
+           stripper.setSortByPosition(true);
+
+           String text = stripper.getText(pdfDocument);
+           System.out.println(text);*/
+
+           GetData data = new GetData();
+           data.setSortByPosition(true);
+
+           String loop = data.getText(pdfDocument);
+           System.out.println(loop);
 
            /*PDFTextStripper pdfStripper = new PDFTextStripper();
            pdfStripper.setSortByPosition( true );
@@ -74,9 +85,11 @@ public class ExtractPDF {
             buffer = new BufferedReader(new FileReader(file));
         }
 
+        int commandRowCounter = 0;
         int commandRowCharCounter = 0;
         String commandRow;
 
+        boolean hasColumnName;
         boolean hasTitleIndex;
         boolean hasTitle;
         boolean hasSectionIndex;
@@ -85,25 +98,30 @@ public class ExtractPDF {
         boolean getName;
         boolean sectionChecked;
         boolean subsectionChecked;
+        boolean hasColumnNumber;
 
         while ((commandRow = buffer.readLine()) != null) {
             Command commandObj = new Command();
 
+            hasColumnName = false;
             hasTitleIndex = false;
             hasTitle = false;
             hasSectionIndex = false;
             hasSection = false;
             hasSubsectionIndex = false;
-            getName = false;
+            getName = true;
             sectionChecked = false;
             subsectionChecked = false;
+            hasColumnNumber = false;
 
             while (commandRowCharCounter < commandRow.length()) {
                 while (commandRowCharCounter < commandRow.length() && (commandRow.charAt(commandRowCharCounter) == ' ' || commandRow.charAt(commandRowCharCounter) == '\t')) {
                     commandRowCharCounter++;
 
                     if (commandRowCharCounter == commandRow.length()) {
-                        break;
+                        errorRow = commandRowCounter;
+                        errorColumn = commandRowCharCounter;
+                        return false;
                     }
                 }
 
@@ -113,12 +131,15 @@ public class ExtractPDF {
 
                         int titleStartIndex = commandRowCharCounter;
                         while (commandRowCharCounter < commandRow.length()) {
+
                             if (commandRow.charAt(commandRowCharCounter) == '\"' && commandRow.charAt(commandRowCharCounter - 1) != '\\') {
                                 break;
                             }
 
                             commandRowCharCounter++;
                             if (commandRowCharCounter == commandRow.length()) {
+                                errorRow = commandRowCounter;
+                                errorColumn = commandRowCharCounter;
                                 return false;
                             }
                         }
@@ -130,7 +151,10 @@ public class ExtractPDF {
                         }
                         String name = builder.toString();
 
-                        if (!hasTitle) {
+                        if (!hasColumnName) {
+                            commandObj.setColumnName(name);
+                            hasColumnName = true;
+                        } else if (!hasTitle) {
                             commandObj.setTitle(name);
                             hasTitle = true;
                         } else if (hasSectionIndex && !hasSection) {
@@ -145,17 +169,21 @@ public class ExtractPDF {
                         continue;
 
                     } else {
+                        errorRow = commandRowCounter;
+                        errorColumn = commandRowCharCounter;
                         return false;
                     }
                 }
 
                 if (!hasTitleIndex) {
-                    if (commandRow.charAt(commandRowCharCounter) == '+') {
+                    if (commandRow.charAt(commandRowCharCounter) == ':') {
                         hasTitleIndex = true;
                         getName = true;
                         commandRowCharCounter++;
                         continue;
                     } else {
+                        errorRow = commandRowCounter;
+                        errorColumn = commandRowCharCounter;
                         return false;
                     }
                 }
@@ -184,42 +212,62 @@ public class ExtractPDF {
                     }
                 }
 
-                if (commandRow.charAt(commandRowCharCounter) == '[') {
-                    commandRowCharCounter++;
+                if(!hasColumnNumber) {
+                    if (commandRow.charAt(commandRowCharCounter) == '[') {
+                        commandRowCharCounter++;
 
-                    if (commandRowCharCounter < commandRow.length()) {
-                        if (commandRow.charAt(commandRowCharCounter) == '$') {
-                            commandRowCharCounter++;
-
-                            StringBuilder builder = new StringBuilder();
-                            while (commandRowCharCounter < commandRow.length() && Character.isDigit(commandRow.charAt(commandRowCharCounter))) {
-                                builder.append(commandRow.charAt(commandRowCharCounter));
+                        if (commandRowCharCounter < commandRow.length()) {
+                            if (commandRow.charAt(commandRowCharCounter) == '$') {
                                 commandRowCharCounter++;
 
-                                if (commandRowCharCounter == commandRow.length()) {
+                                StringBuilder builder = new StringBuilder();
+                                while (commandRowCharCounter < commandRow.length() && Character.isDigit(commandRow.charAt(commandRowCharCounter))) {
+                                    builder.append(commandRow.charAt(commandRowCharCounter));
+                                    commandRowCharCounter++;
+
+                                    if (commandRowCharCounter == commandRow.length()) {
+                                        errorRow = commandRowCounter;
+                                        errorColumn = commandRowCharCounter;
+                                        return false;
+                                    }
+                                }
+
+                                if (!(commandRow.charAt(commandRowCharCounter) == ']')) {
+                                    errorRow = commandRowCounter;
+                                    errorColumn = commandRowCharCounter;
                                     return false;
                                 }
-                            }
 
-                            if (!(commandRow.charAt(commandRowCharCounter) == ']')) {
+                                String columnNumber = builder.toString();
+                                commandObj.setColumnNumber(columnNumber);
+                                hasColumnNumber = true;
+                                commandRowCharCounter++;
+                            } else {
+                                errorRow = commandRowCounter;
+                                errorColumn = commandRowCharCounter;
                                 return false;
                             }
-
-                            String columnNumber = builder.toString();
-                            commandObj.appendColumnList(columnNumber);
-                            commandRowCharCounter++;
                         } else {
+                            errorRow = commandRowCounter;
+                            errorColumn = commandRowCharCounter;
                             return false;
                         }
+
                     } else {
+                        errorRow = commandRowCounter;
+                        errorColumn = commandRowCharCounter;
                         return false;
                     }
-
                 } else {
+                    errorRow = commandRowCounter;
+                    errorColumn = commandRowCharCounter;
                     return false;
                 }
+
             }
+
             commandRowCharCounter = 0;
+            commandRowCounter++;
             this.commandList.add(commandObj);
         }
 
